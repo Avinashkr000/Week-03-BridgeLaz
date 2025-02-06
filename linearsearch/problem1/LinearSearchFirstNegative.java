@@ -1,0 +1,13 @@
+package org.day04.linearsearch.problem1;
+
+public class LinearSearchFirstNegative {
+    public static int findFirstNegative(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < 0) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+}
