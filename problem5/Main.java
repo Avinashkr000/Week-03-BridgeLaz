@@ -1,0 +1,14 @@
+package org.day06.problem5;
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a number to compute fibonacci : ");
+        int n=sc.nextInt();
+        FibonacciComputation fibonacciComputation=new FibonacciComputation();
+        fibonacciComputation.compareFibonacci(n);
+    }
+}
